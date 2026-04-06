@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Matshona Attorneys in Pretoria. Book a free consultation, call us, or visit our offices in Hatfield. We're here to help with your legal needs.">
+  <title>Contact Us — Matshona Attorneys</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-nav">Skip to main content</a>
+  <header class="header scrolled" id="header">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Matshona Attorneys Home"><div class="logo-icon">M</div><div class="logo-text">Matshona<span>Attorneys</span></div></a>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="practice-areas.html">Practice Areas</a><a href="blog.html">Blog</a><a href="contact.html" class="active">Contact</a><a href="contact.html" class="nav-cta">Free Consultation</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="page-hero" id="main-content">
+    <div class="container">
+      <span class="section-label">Get in Touch</span>
+      <h1>Contact Us</h1>
+      <p>We're ready to help. Reach out for a free, no-obligation consultation.</p>
+      <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Contact</span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Contact Form -->
+        <div>
+          <h2 class="section-title">Send Us a Message</h2>
+          <div class="gold-line" style="margin-left:0;"></div>
+          <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fullName">Full Name *</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required aria-required="true">
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required aria-required="true">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="+27 XX XXX XXXX" required aria-required="true">
+              </div>
+              <div class="form-group">
+                <label for="service">Service Needed</label>
+                <select id="service" name="service">
+                  <option value="">Select a practice area</option>
+                  <option value="family">Family Law</option>
+                  <option value="criminal">Criminal Defence</option>
+                  <option value="labour">Labour Law</option>
+                  <option value="injury">Personal Injury</option>
+                  <option value="conveyancing">Conveyancing & Property</option>
+                  <option value="commercial">Commercial & Business Law</option>
+                  <option value="immigration">Immigration Law</option>
+                  <option value="estates">Estate Planning & Wills</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message *</label>
+              <textarea id="message" name="message" placeholder="Briefly describe your legal matter..." required aria-required="true"></textarea>
+            </div>
+            <div class="form-group" style="display:flex;align-items:flex-start;gap:10px;">
+              <input type="checkbox" id="consent" name="consent" required style="width:auto;margin-top:4px;" aria-required="true">
+              <label for="consent" style="font-weight:400;font-size:0.82rem;color:var(--text-secondary);">I consent to Matshona Attorneys collecting and processing my personal information in accordance with the <a href="privacy-policy.html">Privacy Policy</a> (POPIA compliant).</label>
+            </div>
+            <button type="submit" class="btn btn-primary" id="submitBtn">Send Message →</button>
+            <div id="formSuccess" style="display:none;margin-top:1rem;padding:1rem;background:#e8f5e9;border-radius:var(--radius-sm);color:#2D8F5F;font-weight:500;">✅ Thank you! Your message has been sent. We will contact you within 24 hours.</div>
+            <div id="formError" style="display:none;margin-top:1rem;padding:1rem;background:#fde8e8;border-radius:var(--radius-sm);color:#C0392B;font-weight:500;"></div>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h2 class="section-title">Contact Information</h2>
+          <div class="gold-line" style="margin-left:0;"></div>
+          <div class="contact-info-card">
+            <div class="contact-info-icon">📍</div>
+            <div><h4>Office Address</h4><p>123 Justice Avenue, Hatfield<br>Pretoria, Gauteng, 0028</p></div>
+          </div>
+          <div class="contact-info-card">
+            <div class="contact-info-icon">📞</div>
+            <div><h4>Phone</h4><p><a href="tel:+27123456789">+27 12 345 6789</a><br><a href="tel:+27823456789">+27 82 345 6789</a> (After hours)</p></div>
+          </div>
+          <div class="contact-info-card">
+            <div class="contact-info-icon">✉️</div>
+            <div><h4>Email</h4><p><a href="mailto:info@matshonaattorneys.co.za">info@matshonaattorneys.co.za</a></p></div>
+          </div>
+          <div class="contact-info-card">
+            <div class="contact-info-icon">🕐</div>
+            <div><h4>Office Hours</h4><p>Monday – Friday: 08:00 – 17:00<br>Saturday: 09:00 – 13:00 (By appointment)<br>Sunday: Closed</p></div>
+          </div>
+
+          <!-- Map -->
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.1!2d28.2294!3d-25.7479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDQ0JzUyLjQiUyAyOMKwMTMnNDUuOCJF!5e0!3m2!1sen!2sza!4v1" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Matshona Attorneys office location on Google Maps"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Prefer to Schedule Online?</h2>
+      <p>Use our online booking system to schedule a consultation at a time that suits you.</p>
+      <a href="#" class="btn btn-primary" id="calendlyBtn">Book on Calendly →</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about"><div class="logo" style="margin-bottom:1rem;"><div class="logo-icon">M</div><div class="logo-text">Matshona<span>Attorneys</span></div></div><p>A trusted Pretoria-based law firm delivering excellence in legal services since 2010.</p><div class="footer-social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="Twitter">𝕏</a></div></div>
+        <div class="footer-links"><h4>Quick Links</h4><a href="about.html">About Us</a><a href="practice-areas.html">Practice Areas</a><a href="blog.html">Blog & Resources</a><a href="contact.html">Contact Us</a></div>
+        <div class="footer-links"><h4>Legal</h4><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="privacy-policy.html#popia">POPIA Compliance</a></div>
+        <div><h4>Contact Info</h4><p style="font-size:0.88rem;">📍 123 Justice Avenue, Hatfield, Pretoria, 0028</p><p style="font-size:0.88rem;">📞 +27 12 345 6789</p><p style="font-size:0.88rem;">✉️ info@matshonaattorneys.co.za</p><p style="font-size:0.88rem;">🕐 Mon–Fri: 08:00 – 17:00</p></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 Matshona Attorneys. All Rights Reserved. | Designed with care in Pretoria 🇿🇦</p></div>
+    </div>
+  </footer>
+
+  <script src="//code.tidio.co/z5x9nlpoq2oirgwmjpmblcar8x8beiqx.js" async></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Legal insights, guides, and expert articles from Matshona Attorneys. Stay informed on South African law and your rights.">
+  <title>Blog & Resources — Matshona Attorneys</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-nav">Skip to main content</a>
+  <header class="header scrolled" id="header">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Matshona Attorneys Home"><div class="logo-icon">M</div><div class="logo-text">Matshona<span>Attorneys</span></div></a>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="practice-areas.html">Practice Areas</a><a href="blog.html" class="active">Blog</a><a href="contact.html">Contact</a><a href="contact.html" class="nav-cta">Free Consultation</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="page-hero" id="main-content">
+    <div class="container">
+      <span class="section-label">Insights & Resources</span>
+      <h1>Legal Blog</h1>
+      <p>Expert insights to help you understand your rights and navigate the legal landscape.</p>
+      <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Blog</span></div>
+    </div>
+  </section>
+
+  <!-- Blog Filters -->
+  <section style="padding:2rem 0 0;">
+    <div class="container">
+      <div class="chat-quick-replies" style="justify-content:center;gap:10px;margin-bottom:1rem;" id="blogFilters">
+        <button class="chat-quick-btn" style="padding:8px 20px;font-size:0.85rem;" data-filter="all" onclick="filterBlog('all')">All Articles</button>
+        <button class="chat-quick-btn" style="padding:8px 20px;font-size:0.85rem;" data-filter="family" onclick="filterBlog('family')">Family Law</button>
+        <button class="chat-quick-btn" style="padding:8px 20px;font-size:0.85rem;" data-filter="criminal" onclick="filterBlog('criminal')">Criminal Law</button>
+        <button class="chat-quick-btn" style="padding:8px 20px;font-size:0.85rem;" data-filter="labour" onclick="filterBlog('labour')">Labour Law</button>
+        <button class="chat-quick-btn" style="padding:8px 20px;font-size:0.85rem;" data-filter="injury" onclick="filterBlog('injury')">Personal Injury</button>
+        <button class="chat-quick-btn" style="padding:8px 20px;font-size:0.85rem;" data-filter="business" onclick="filterBlog('business')">Business</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Grid -->
+  <section>
+    <div class="container">
+      <div class="blog-grid" id="blogGrid">
+
+        <article class="blog-card fade-in" data-category="family">
+          <div class="blog-thumb" style="display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,#1B2A4A,#2A3F6B);">👨‍👩‍👧‍👦</div>
+          <div class="blog-card-body">
+            <span class="blog-tag">Family Law</span>
+            <h3><a href="#">Understanding Child Custody Laws in South Africa</a></h3>
+            <div class="blog-meta">📅 March 15, 2024 • 5 min read</div>
+            <p>A comprehensive guide to parental rights, responsibilities, and best interests of the child under the Children's Act.</p>
+          </div>
+        </article>
+
+        <article class="blog-card fade-in" data-category="criminal">
+          <div class="blog-thumb" style="display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,#1B2A4A,#2A3F6B);">🛡️</div>
+          <div class="blog-card-body">
+            <span class="blog-tag">Criminal Law</span>
+            <h3><a href="#">Your Rights When Arrested: What You Need to Know</a></h3>
+            <div class="blog-meta">📅 March 8, 2024 • 4 min read</div>
+            <p>Know your constitutional rights during arrest and detention. An essential guide for every South African citizen.</p>
+          </div>
+        </article>
+
+        <article class="blog-card fade-in" data-category="labour">
+          <div class="blog-thumb" style="display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,#1B2A4A,#2A3F6B);">⚙️</div>
+          <div class="blog-card-body">
+            <span class="blog-tag">Labour Law</span>
+            <h3><a href="#">Unfair Dismissal: How to Challenge Your Employer at the CCMA</a></h3>
+            <div class="blog-meta">📅 February 28, 2024 • 6 min read</div>
+            <p>Step-by-step guide to filing an unfair dismissal dispute, timelines, and what evidence you'll need to succeed.</p>
+          </div>
+        </article>
+
+        <article class="blog-card fade-in" data-category="injury">
+          <div class="blog-thumb" style="display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,#1B2A4A,#2A3F6B);">🏥</div>
+          <div class="blog-card-body">
+            <span class="blog-tag">Personal Injury</span>
+            <h3><a href="#">RAF Claims: A Complete Guide to Motor Accident Compensation</a></h3>
+            <div class="blog-meta">📅 February 20, 2024 • 7 min read</div>
+            <p>Everything you need to know about claiming from the Road Accident Fund, including time limits and required documentation.</p>
+          </div>
+        </article>
+
+        <article class="blog-card fade-in" data-category="business">
+          <div class="blog-thumb" style="display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,#1B2A4A,#2A3F6B);">💼</div>
+          <div class="blog-card-body">
+            <span class="blog-tag">Business</span>
+            <h3><a href="#">Starting a Business in SA: Legal Requirements You Can't Ignore</a></h3>
+            <div class="blog-meta">📅 February 10, 2024 • 5 min read</div>
+            <p>From CIPC registration to BEE compliance — the essential legal checklist for new businesses in South Africa.</p>
+          </div>
+        </article>
+
+        <article class="blog-card fade-in" data-category="family">
+          <div class="blog-thumb" style="display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,#1B2A4A,#2A3F6B);">📜</div>
+          <div class="blog-card-body">
+            <span class="blog-tag">Family Law</span>
+            <h3><a href="#">Why Every South African Needs a Will: Protecting Your Legacy</a></h3>
+            <div class="blog-meta">📅 January 30, 2024 • 4 min read</div>
+            <p>Dying without a will means intestate succession applies. Understand why a will is essential and how to create one properly.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Have a Legal Question?</h2>
+      <p>Our team is ready to help. Get in touch for a free initial consultation.</p>
+      <a href="contact.html" class="btn btn-primary">Contact Us Today →</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about"><div class="logo" style="margin-bottom:1rem;"><div class="logo-icon">M</div><div class="logo-text">Matshona<span>Attorneys</span></div></div><p>A trusted Pretoria-based law firm delivering excellence in legal services since 2010.</p><div class="footer-social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="Twitter">𝕏</a></div></div>
+        <div class="footer-links"><h4>Quick Links</h4><a href="about.html">About Us</a><a href="practice-areas.html">Practice Areas</a><a href="blog.html">Blog & Resources</a><a href="contact.html">Contact Us</a></div>
+        <div class="footer-links"><h4>Legal</h4><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="privacy-policy.html#popia">POPIA Compliance</a></div>
+        <div><h4>Contact Info</h4><p style="font-size:0.88rem;">📍 123 Justice Avenue, Hatfield, Pretoria, 0028</p><p style="font-size:0.88rem;">📞 +27 12 345 6789</p><p style="font-size:0.88rem;">✉️ info@matshonaattorneys.co.za</p><p style="font-size:0.88rem;">🕐 Mon–Fri: 08:00 – 17:00</p></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2024 Matshona Attorneys. All Rights Reserved. | Designed with care in Pretoria 🇿🇦</p></div>
+    </div>
+  </footer>
+
+  <script src="//code.tidio.co/z5x9nlpoq2oirgwmjpmblcar8x8beiqx.js" async></script>
+  <script src="js/main.js"></script>
+  <script>
+    function filterBlog(category) {
+      const cards = document.querySelectorAll('.blog-card');
+      const btns = document.querySelectorAll('#blogFilters .chat-quick-btn');
+      btns.forEach(b => b.style.background = category === b.dataset.filter ? 'var(--accent)' : '');
+      btns.forEach(b => b.style.color = category === b.dataset.filter ? 'var(--primary-dark)' : '');
+      cards.forEach(card => {
+        if (category === 'all' || card.dataset.category === category) {
+          card.style.display = '';
+          card.style.animation = 'fadeInUp 0.4s ease';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
